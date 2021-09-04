@@ -1,1 +1,1 @@
-FileName = ""
+PATH = '/home/masoud/Desktop/Neural Network Project/SmToFX.jpg'
