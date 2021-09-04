@@ -11,7 +11,6 @@ QMainWindow, QApplication, QWidget, QPushButton, QAction, QLineEdit, QMessageBox
 
 
 
-
 class File(QWidget):
 
 
@@ -154,6 +153,13 @@ class App(QWidget):
 
 
         
-app = QApplication(sys.argv)
-ex = App()
-sys.exit(app.exec_())
+
+
+
+
+
+if __name__ == '__main__':
+
+    app = QApplication(sys.argv)
+    ex = App()
+    sys.exit(app.exec_())
